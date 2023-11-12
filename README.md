@@ -17,11 +17,11 @@ Materiais a entregar:
 4. Vídeo até 1 min de demonstração da interação de caráter experimental;
    
 Critérios de avaliação:
-● Pertinência da abordagem conceptual face ao exercício proposto.
-● Rigor visual;
-● Carácter experimental;
-● Organização e estruturação de código;
-● Organização do processo de desenvolvimento (git);
+1. Pertinência da abordagem conceptual face ao exercício proposto.
+2. Rigor visual;
+3. Carácter experimental;
+4. Organização e estruturação de código;
+5. Organização do processo de desenvolvimento (git);
 
 Data de entrega:
 Entrega dos materiais através da submissão de trabalhos no Inforestudante até às 23:00 de 06 de Novembro 2023. Nota: não haverá defesa dos exercícios.
