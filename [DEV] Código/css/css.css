@@ -1,0 +1,16 @@
+/*Geral*/
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+  }
+
+body{
+    position: relative;
+}
+
+h1,.titulo{
+    font-family: 'Krona One';
+    color: #6B8664;
+    font-size: 3vmin;
+}
