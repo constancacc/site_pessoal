@@ -9,8 +9,27 @@ body{
     position: relative;
 }
 
+nav{
+  
+    width: 60vmin;
+
+    position: relative;
+    top: 20vmin;
+    left: 10vmin;
+    
+    
+
+}
+
 h1,.titulo{
     font-family: 'Krona One';
     color: #6B8664;
     font-size: 3vmin;
+
+    padding: 2vmin;
+   
+}
+
+.titulo:hover{
+    color:#CCE4AC;
 }
