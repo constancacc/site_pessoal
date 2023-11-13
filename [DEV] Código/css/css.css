@@ -1,4 +1,6 @@
-/*Geral*/
+/*----------Geral--------------
+CSS geral para todo o website localiza-se nesta página*/
+
 * {
     margin: 0;
     padding: 0;
@@ -9,8 +11,7 @@ body{
     background-color: #f3f3f3;
 }
 
-/*Homepage*/
-
+/*Containers*/
 nav, div{
   
     width: 60vmin;
@@ -18,25 +19,25 @@ nav, div{
     position: relative;
     top: 20vmin;
     left: 10vmin;
-
+   
 }
 
+/*Títulos*/
 h1, .titulo{
     font-family: 'Krona One';
     color: #6B8664;
     font-size: 3vmin;
 
     padding: 2vmin;
-   
+
 }
 
 .titulo:hover{
     color:#CCE4AC;
 }
 
-/*Sobre*/
+/*Textos*/
 .texto{
-
 
     font-family: 'Space Grotesk';
     font-size: 2.3vmin;
@@ -44,3 +45,20 @@ h1, .titulo{
 
     padding: 2vmin;
 }
+
+/*Botão voltar para trás*/
+svg:hover{
+    animation: front 0.6s linear;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes front {
+   from{
+    transform: translate(0, 0); 
+   }
+
+    to{
+        transform: translate(-2vmin, 0); 
+    }
+  }
