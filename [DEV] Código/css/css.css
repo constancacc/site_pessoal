@@ -62,3 +62,12 @@ svg:hover{
         transform: translate(-2vmin, 0); 
     }
   }
+
+
+  .add {
+    width: 10vmin;
+    height: auto;
+
+    position: absolute;
+    display:flex;
+  }
