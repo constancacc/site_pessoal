@@ -8,8 +8,35 @@ CSS geral para todo o website localiza-se nesta página*/
 
 body{
     position: relative;
-    background-color: #f3f3f3;
+    height: 100vh;
+
+    background-image: radial-gradient(closest-side at 80% 45%, #CCE4AC,#f3f3f3);
+                
+
+ 
+
+   /* background-image: radial-gradient(at 27% 81%, hsla(265, 70%, 34%, 1) 0px, transparent 50%),
+                    radial-gradient(at 3% 10%, hsla(266, 98%, 38%, 1) 0px, transparent 50%),
+                    radial-gradient(at 7% 77%, hsla(248, 100%, 13%, 1) 0px, transparent 50%),
+                    radial-gradient(at 0% 78%, hsla(240, 95%, 64%, 1) 0px, transparent 50%),
+radial-gradient(at 52% 42%, hsla(274, 75%, 50%, 1) 0px, transparent 50%),
+radial-gradient(at 96% 36%, hsla(270, 100%, 51%, 1) 0px, transparent 50%),
+radial-gradient(at 40% 27%, hsla(254, 64%, 43%, 1) 0px, transparent 50%);
+background-size: 200% 200%, 150% 150%, 225% 225%, 200% 200%, 150% 150%, 225% 225%, 200% 200%;
+animation: animatedBackground 15s ease infinite;
 }
+
+@keyframes animatedBackground {
+    0%, 100% {
+      background-position: 0% 50%, 100% 50%, 50% 100%;
+      background-size: 200% 200%, 150% 150%, 225% 225%;
+    }
+    33% {
+      background-position: 50% 100%, 0% 50%, 100% 50%;
+      background-size: 225% 225%, 200
+
+      }*/
+    }
 
 /*Containers*/
 nav, div{
@@ -19,8 +46,6 @@ nav, div{
     position: relative;
     top: 20vmin;
     left: 10vmin;
-
-    border: 1px solid red;
    
 }
 
@@ -76,4 +101,5 @@ svg:hover{
 
     position: absolute;
     display:flex;
+    
   }
