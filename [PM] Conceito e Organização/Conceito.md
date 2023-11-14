@@ -1,10 +1,10 @@
 # Conceito
 
-Ao analisar o enunciado e refletir um pouco no que poderia ser um site pessoal experimental, decidi desenvolver o meu conceito visual partindo do meu portfolio, ou seja, pegar na tipografia, na paleta de cores e no aspeto visual, mas transformar um pdf num site não convencional.
+Ao analisar o enunciado e refletir um pouco no que poderia ser um site pessoal experimental, decidi desenvolver o meu conceito visual partindo do meu portfolio, ou seja, pegar na tipografia, na paleta de cores e no aspeto visual, mas transformar um pdf num site.
 
-Com a utilização dos verdes e das formas mais orgânicas decidi fazer uma homepage interativa onde o próprio utilizador poderá decidir que background do website irá ter. Poderá utilizar a variação dos verdes e as formas mais organicas de maneira a fazer gradientes diversos.
+Com a utilização dos verdes e das formas mais orgânicas decidi fazer uma homepage interativa onde o próprio utilizador poderá decidir que background do website irá ter. Poderá utilizar a variação dos verdes e as formas mais orgânicas de maneira a fazer gradientes diversos.
 
-Outra ideia posterior que eventualmente poderei desenvolver é a de inserir a tipografia no background do website com algumas palavras ou funfacts sobre mim, ou então formas e/ou ícones de coisas que gosto.
+Outra ideia posterior que eventualmente poderei desenvolver é a de inserir a tipografia no background do website com algumas palavras, ou então formas e/ou ícones de coisas que gosto.
 
 # Informações de Cada Página
 
