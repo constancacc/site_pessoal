@@ -9,8 +9,8 @@ document.addEventListener('click', (e) => {
 
     var Icons = new Array();
 
-    for(let i=0; i<10; i++){
-      Icons[i]="img/"+i+".png";
+    for(let i=0; i<18; i++){
+      Icons[i]="../img/projetos/"+i+".png";
     }
 
     var random = Math.floor(Math.random() * Icons.length);
@@ -19,7 +19,7 @@ document.addEventListener('click', (e) => {
 
     const img = document.createElement('img');
     img.src = Icons[random];
-    img.classList.add('add');
+    img.classList.add('add_proj');
      
     /*Ajustar posição da imagem ao rato*/
 

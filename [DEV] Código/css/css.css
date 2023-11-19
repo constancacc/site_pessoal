@@ -100,3 +100,12 @@ svg:hover{
     display:flex;
     
   }
+
+  .add_proj {
+    width: 30vmin;
+    height: auto;
+
+    position: absolute;
+    display:flex;
+    
+  }
