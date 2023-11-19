@@ -1,21 +1,31 @@
 
-/*------------index---------------------------
-nota: o ronaldo está a funcionar*/
+//------------Index--------------------------
+
 
 document.addEventListener('click', (e) => {
     createElement(e.clientX, e.clientY);
   });
 
   function createElement(x, y) {
-    //console.log(1); -> saber se o ficheiro está a funcionar
+
+    var Icons = new Array();
+
+    for(let i=0; i<10; i++){
+      Icons[i]="img/"+i+".png";
+    }
+
+    var random = Math.floor(Math.random() * Icons.length);
+    console.log(random);
+    
 
     const img = document.createElement('img');
-    img.src ='img/siu.png';
+    img.src = Icons[random];
     img.classList.add('add');
      
+    /*Ajustar posição da imagem ao rato*/
 
-    img.style.left = `${x - 25}px`; // Adjust for the center of the circle
-    img.style.top = `${y - 25}px`; // Adjust for the center of the circle
+    img.style.left = `${x - 25}px`; 
+    img.style.top = `${y - 25}px`; 
 
     document.body.appendChild(img);
   }
