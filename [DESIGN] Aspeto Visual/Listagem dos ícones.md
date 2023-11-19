@@ -12,3 +12,8 @@
 3. Árvore de Natal
 4. Cão/Osso de maneira a representar um cão
 5. Onda do Mar
+
+# Tamanho
+
+50px
+
