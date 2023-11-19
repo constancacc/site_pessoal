@@ -9,7 +9,7 @@ document.addEventListener('click', (e) => {
 
     var Icons = new Array();
 
-    for(let i=0; i<18; i++){
+    for(let i=0; i<12; i++){
       Icons[i]="../img/projetos/"+i+".png";
     }
 
