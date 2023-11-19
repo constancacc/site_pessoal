@@ -1,7 +1,7 @@
 # Tipografia
 
 **Títulos:** Krona One
-**Textos:** Montserrat Regular ou Space Grotesk
+**Textos:** Space Grotesk
 
 # Paleta de Cores
 
