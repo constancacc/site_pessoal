@@ -12,7 +12,7 @@ body,html {
   }
 
 body{
-
+   font-family: 'Krona One', sans-serif;
     position: relative;
     height:100vh;
 
@@ -39,7 +39,6 @@ body{
 
 /*Containers*/
 nav, div{
-  
     width: 60vmin;
 
     position: relative;
@@ -54,7 +53,6 @@ h1{
 }
 
 h1, .titulo{
-    font-family: 'Krona One';
     color: #6B8664;
     font-size: 3vmin;
 
@@ -69,7 +67,7 @@ h1, .titulo{
 /*Textos*/
 .texto{
 
-    font-family: 'Space Grotesk';
+    font-family: 'Space Grotesk', sans-serif;
     font-size: 2.3vmin;
     color: #6B8664;
 
@@ -113,4 +111,15 @@ svg:hover{
     border-radius:1vw;
    
   }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  h1{
+    font-size: 5vmin;
+  }
+  
+  .texto{
+    font-size: 3.3vmin;
+  }
+}
 
