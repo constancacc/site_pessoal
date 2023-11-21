@@ -2,7 +2,8 @@
 CSS geral para todo o website localiza-se nesta página*/
 
 body,html {
-  overflow:hidden;
+  overflow-x:hidden;
+  overflow-y:hidden;
 }
 
 * {
@@ -13,8 +14,7 @@ body,html {
 body{
 
     position: relative;
-    height: 100vh;
-    
+    height:100vh;
 
     background: linear-gradient(-45deg, #CCE4AC, #f3f3f3);
     background-size: 400% 400%;
@@ -109,6 +109,8 @@ svg:hover{
     height: auto;
 
     position: absolute;
+
+    border-radius:1vw;
    
-    
   }
+
