@@ -1,17 +1,20 @@
 /*----------Geral--------------
 CSS geral para todo o website localiza-se nesta página*/
 
+body,html {
+  overflow:hidden;
+}
+
 * {
     margin: 0;
     padding: 0;
   }
 
 body{
-    overflow: hidden;
+
     position: relative;
     height: 100vh;
-
-    /*Animação do background*/
+    
 
     background: linear-gradient(-45deg, #CCE4AC, #f3f3f3);
     background-size: 400% 400%;
@@ -19,7 +22,6 @@ body{
     
     }
     
-    /*Animação do background*/
 
     @keyframes gradient {
       0% {
@@ -98,7 +100,7 @@ svg:hover{
     height: auto;
 
     position: absolute;
-    display:flex;
+
     
   }
 
@@ -107,6 +109,6 @@ svg:hover{
     height: auto;
 
     position: absolute;
-    display:flex;
+   
     
   }

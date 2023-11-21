@@ -27,5 +27,5 @@ document.addEventListener('click', (e) => {
     img.style.left = `${x - 25}px`; 
     img.style.top = `${y - 25}px`; 
 
-    document.body.appendChild(img);
+    document.querySelector("body").appendChild(img);
   }
