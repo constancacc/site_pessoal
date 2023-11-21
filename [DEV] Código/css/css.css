@@ -112,14 +112,31 @@ svg:hover{
    
   }
 
-/* Small Devices, Tablets */
+
 @media only screen and (max-width : 768px) {
-  h1{
+  h1, .titulo{
     font-size: 5vmin;
   }
   
   .texto{
-    font-size: 3.3vmin;
+    margin-top: 2vmin; 
+    font-size: 4.3vmin;
+  }
+
+  /*Containers*/
+  nav, div{
+
+    width: 80vmin;
+
+    position: relative;
+    top: 40vmin;
+    left: 5vmin;
+  
+  }
+
+  svg{
+    width: 15vmin;
+    height: auto;
   }
 }
 
