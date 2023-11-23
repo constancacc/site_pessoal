@@ -111,7 +111,6 @@ svg:hover{
 
     position: absolute;
 
-    
   }
 
   .add_proj {
@@ -126,11 +125,11 @@ svg:hover{
 
   /*Indicação*/
   .desktop{
-  position: absolute;
-  left: 50vw;
-  bottom:5vh;
-  width: 3vmin;
-  height: auto;
+    position: absolute;
+    left: 50vw;
+    bottom:5vh;
+    width: 3vmin;
+    height: auto;
   }
 
   .mobile{
@@ -158,7 +157,7 @@ svg:hover{
     left: 5vmin;
   
   }
-  
+
 
   .seta, .contactos{
     width: 15vmin;
@@ -170,7 +169,7 @@ svg:hover{
 
     position: absolute;
     left: 50vw;
-    bottom: 5vh;
+    bottom: 50vh;
     
     width: 5vmin;
     height: auto;
