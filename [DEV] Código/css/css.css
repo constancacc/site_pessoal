@@ -169,7 +169,7 @@ svg:hover{
 
     position: absolute;
     left: 50vw;
-    bottom: 50vh;
+    top: 5vh;
     
     width: 5vmin;
     height: auto;
