@@ -124,7 +124,20 @@ svg:hover{
    
   }
 
+  /*Indicação*/
+  .desktop{
+  position: absolute;
+  left: 50vw;
+  bottom:5vh;
+  width: 3vmin;
+  height: auto;
+  }
 
+  .mobile{
+    display: none;
+  }
+
+/*--------------MOBILE----------------------*/
 @media only screen and (max-width : 768px) {
   h1, .titulo{
     font-size: 5vmin;
@@ -146,9 +159,25 @@ svg:hover{
   
   }
 
-  svg{
+  .seta, .contactos{
     width: 15vmin;
     height: auto;
   }
+
+  .mobile{
+    display:block;
+
+    position: absolute;
+    left: 50vw;
+    bottom: 5vh;
+    
+    width: 5vmin;
+    height: auto;
+    }
+  
+  .desktop{
+      display: none;
+  }
+  
 }
 
