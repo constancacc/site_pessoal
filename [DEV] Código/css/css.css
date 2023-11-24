@@ -1,6 +1,7 @@
 /*----------Geral--------------
-CSS geral para todo o website localiza-se nesta página*/
+CSS geral para todo o website localiza-se nesta página, website responsivo*/
 
+/*Body*/
 body,html {
   overflow-x:hidden;
   overflow-y:hidden;
@@ -22,6 +23,7 @@ body{
     
     }
 
+    /*animação de cor no background*/
     @keyframes gradient {
       0% {
         background-position: 0% 50%;
@@ -61,7 +63,6 @@ h1, .titulo{
 
 /*Textos*/
 .texto{
-
     font-family: 'Space Grotesk', sans-serif;
     font-size: 2.3vmin;
     color: #6B8664;
@@ -69,8 +70,8 @@ h1, .titulo{
     padding: 2vmin;
 }
 
-/*Botão voltar para trás*/
-svg:hover{
+/*Seta voltar para trás*/
+.seta:hover{
   cursor: pointer;
 }
 
@@ -100,7 +101,11 @@ svg:hover{
 
 }
 
-/*Ícones adicionados*/
+.contactos:hover{
+  cursor:pointer;
+}
+
+/*Ícones e Projetos adicionados*/
   .add {
     width: 10vmin;
     height: auto;
@@ -146,7 +151,6 @@ adaptação para mobile*/
 
   /*Containers*/
   nav, div{
-
     width: 80vmin;
 
     position: relative;
